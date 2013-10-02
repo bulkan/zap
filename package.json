@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "optimist": "~0.6.0",
-    "read": "~1.0.5"
+    "commander": "~2.0.0",
+    "promptly": "~0.2.0"
   }
 }
