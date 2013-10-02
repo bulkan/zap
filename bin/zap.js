@@ -3,4 +3,4 @@
 
 var cli = require('../lib/cli');
 
-cli.parse();
+cli.parse(process.argv);
