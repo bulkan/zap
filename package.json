@@ -23,6 +23,7 @@
   "dependencies": {
     "optimist": "~0.6.0",
     "commander": "~2.0.0",
-    "promptly": "~0.2.0"
+    "promptly": "~0.2.0",
+    "async": "~0.2.9"
   }
 }
