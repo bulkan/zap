@@ -25,6 +25,10 @@
     "commander": "~2.0.0",
     "promptly": "~0.2.0",
     "async": "~0.2.9",
+    "mkdirp": "~0.3.5",
+    "rimraf": "~2.2.2"
+  },
+  "devDependencies": {
     "should": "~1.3.0",
     "mocha": "~1.13.0"
   }
