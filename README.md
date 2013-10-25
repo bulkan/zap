@@ -3,15 +3,16 @@ zap
 
 zat written in Node.js
 
-      Usage: zap [options] [command]
+    Usage: zap [options] [command]
 
-      Commands:
+    Commands:
 
-        new                    create a new Zendesk app folder
-        validate [options]     Validate the app
-        *                     
+      new                    create a new Zendesk app folder
+      validate [options]     Validate the app.
+      server [options]       Serve the app.
+      *                     
 
-      Options:
+    Options:
 
-        -h, --help     output usage information
-        -V, --version  output the version number
+      -h, --help     output usage information
+      -V, --version  output the version number
