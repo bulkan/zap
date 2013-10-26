@@ -1,7 +1,7 @@
 {
-  "name": "zap",
+  "name": "zapt",
   "version": "0.0.1",
-  "description": "Zendesk Application Toolkit (zap) written in Node.js",
+  "description": "Zendesk Application Toolkit (zapt) written in Node.js",
   "main": "./bin/zap",
   "scripts": {
     "test": "make test"
