@@ -31,7 +31,8 @@
     "rework": "~0.18.3",
     "ejs": "~0.8.4",
     "fs-extra": "~0.8.1",
-    "colors": "~0.6.2"
+    "colors": "~0.6.2",
+    "prompt": "~0.2.11"
   },
   "devDependencies": {
     "mocha": "~1.13.0",
