@@ -17,15 +17,17 @@ Zendesk Application Tools written in Node.js
       -h, --help     output usage information
       -V, --version  output the version number
 
-Constibuters
+Constributers
 ============
 
 
- project  : zap
- repo age : 3 weeks
- active   : 12 days
- commits  : 30
- files    : 24
- authors  : 
-    29	Bulkan Evcimen          96.7%
-     1	Olaf Kwant              3.3%
+```text
+project  : zap
+repo age : 3 weeks
+active   : 12 days
+commits  : 30
+files    : 24
+authors  : 
+   29	Bulkan Evcimen          96.7%
+    1	Olaf Kwant              3.3%
+````
