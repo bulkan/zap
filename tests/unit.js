@@ -3,7 +3,8 @@ var fs         = require('fs')
   , sinon      = require('sinon')
   , path       = require('path')
   , rimraf     = require('rimraf')
-  , newCommand = require('../lib/commands/new').newCommand;
+  , newCommand = require('../lib/commands/new').newCommand
+  , readified_js = require('../lib/commands/server').readified_js;
 
 
 describe('new', function(){
@@ -26,5 +27,29 @@ describe('new', function(){
     done();
   });
 
-  it('readified_js return')
+});
+
+
+describe('server', function() {
+  var conf = {
+    author_name: 'Bulkan Evcimen',
+    author_email: 'bulkan@gmail.com',
+    app_name: 'test app',
+    app_path: '/tmp/test_app'
+  };
+
+  before(function(done){
+    newCommand(conf);
+    done();
+  });
+
+  after(function(done){
+    rimraf(conf.app_path, done);
+  });
+
+  it('readified_js returns correct app.js', function(done){
+    var appjs = readified_js(conf.app_path);
+    appjs.should.be.ok;
+    done();
+  })
 });
