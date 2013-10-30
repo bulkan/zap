@@ -17,7 +17,7 @@ Zendesk Application Tools written in Node.js
       -h, --help     output usage information
       -V, --version  output the version number
 
-Constributers
+Contributers
 ============
 
 
