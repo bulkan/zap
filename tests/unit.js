@@ -11,6 +11,7 @@ describe('new', function(){
     rimraf('/tmp/test_app', done);
   });
 
+
   it('command copies app_template to destination', function(done){
     newCommand({
       author_name: 'Bulkan Evcimen',
@@ -24,4 +25,6 @@ describe('new', function(){
     fs.existsSync('/tmp/test_app/app.css').should.be.ok;
     done();
   });
+
+  it('readified_js return')
 });
