@@ -88,6 +88,35 @@ describe('server', function() {
     appjs.should.match(/name: "Bulkan Evcimen"/);
     appjs.should.match(/email: "bulkan@gmail.com"/);
     done();
-  
   });
 });
+
+
+
+describe('validate', function() {
+  var conf = {
+    author_name: 'Bulkan Evcimen',
+    author_email: 'bulkan@gmail.com',
+    app_name: 'test app',
+    app_path: '/tmp/test_app'
+  };
+
+  before(function(done){
+    newCommand(conf);
+    done();
+  });
+
+  after(function(done){
+    rimraf(conf.app_path, done);
+  });
+
+  describe('manifest file is validated', function(){
+
+    it('finds missing manifest');
+
+    it('locale is valid /^[a-z]{2,3}$/');
+    it('there is a locale.json translation file');
+
+  });
+
+})
