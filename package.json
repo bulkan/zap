@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/bulkan/zap.git"
+    "url": "git://github.com/bulkan/zapt.git"
   },
   "keywords": [
     "zendesk",
@@ -18,7 +18,7 @@
   "author": "Bulkan Evcimen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bulkan/zap/issues"
+    "url": "https://github.com/bulkan/zapt/issues"
   },
   "dependencies": {
     "commander": "~2.0.0",
